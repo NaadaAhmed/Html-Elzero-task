@@ -1,36 +1,36 @@
-# 🧠 HTML Basics
+# 🧠 أساسيات HTML
 
-## 🏷 Structure
+## 🏷 التركيب العام
 
-### 🖋 Head Section
+### 🖋 قسم الرأس (Head)
 
-The <head> tag contains metadata and important information about the webpage.
+يُستخدم وسم <head> لكتابة المعلومات الخاصة بالموقع، زي البيانات التعريفية (metadata) والعنوان والروابط الخاصة بالملفات.
 
-#### 🧩 Common Elements:
-- <meta> — Self-closing tag
-  - *charset:* defines the character encoding used.  
-    Example: UTF-8 → allows the use of Arabic and most languages.
-  - *description:* describes the website content.  
-    Example:  
+#### 🧩 أهم الوسوم داخل <head>:
+- <meta> — وسم يُغلق ذاتيًا (self-closing tag)  
+  - *charset:* لتحديد نوع ترميز اللغة.  
+    مثال: UTF-8 → بيستخدم لكتابة اللغة العربية ومعظم اللغات الأخرى.  
+  - *description:* لكتابة وصف للموقع يظهر تحت اسمه في نتائج البحث.  
+    مثال:  
     html
-    <meta name="description" content="This is the description that appears below the website title in search results.">
+    <meta name="description" content="الوصف الذي يظهر أسفل اسم الموقع في نتائج البحث.">
     
 
-- <style> — used to include CSS styling.
-- <script> — used to link JavaScript files.
-- <title> — defines the title of the page (appears on the browser tab).
+- <style> — لكتابة أكواد CSS داخل الصفحة.  
+- <script> — لربط أو كتابة أكواد JavaScript.  
+- <title> — لكتابة عنوان الصفحة الذي يظهر في تبويب المتصفح.
 
 ---
 
-### 🧍‍♀ Body Section
+### 🧍‍♀ قسم الجسم (Body)
 
-<body> includes all the visible content and information of the website.
+يحتوي وسم <body> على كل المعلومات والعناصر التي تظهر للمستخدم في صفحة الموقع.
 
 ---
 
-## 💬 Comments
+## 💬 التعليقات (Comments)
 
-To add a comment that doesn't appear on the webpage:
+تُستخدم التعليقات لكتابة ملاحظات داخل الكود لا تظهر في الموقع.
 
 ```html
-<!-- This is a comment -->
+<!-- هذه عبارة عن تعليق -->
